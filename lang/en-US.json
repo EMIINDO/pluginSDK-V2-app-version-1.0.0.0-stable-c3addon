@@ -1,0 +1,68 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for App_Version Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_appversion": {
+        "name": "App_Version",
+        "description": "Reads the version of your app from the target build settings.",
+        "help-url": "https://github.com/EMI-INDO/c3addon-bug/issues",
+        "properties": {},
+        "aceCategories": {
+          "appversion": "app version",
+          "eventresponse": "event response"
+        },
+        "conditions": {
+          "ongetversionnumber": {
+            "list-name": "On get Version Number",
+            "display-text": "On get Version Number",
+            "description": "On get Version Number"
+          },
+          "ongetappname": {
+            "list-name": "On get App Name",
+            "display-text": "On get App Name",
+            "description": "On get App Name"
+          },
+          "ongetpackagename": {
+            "list-name": "On get Package Name",
+            "display-text": "On get Package Name",
+            "description": "On get Package Name"
+          },
+          "ongetversioncode": {
+            "list-name": "On get Version Code",
+            "display-text": "On get Version Code",
+            "description": "On get Version Code"
+          }
+        },
+        "actions": {
+          "getversionnumber": {
+            "list-name": "get Version Number",
+            "display-text": "get Version Number",
+            "description": "Returns the version number of the app"
+          },
+          "getappname": {
+            "list-name": "get App Name",
+            "display-text": "get App Name",
+            "description": "Returns the name of the app. E.g. (My Awesome) App"
+          },
+          "getpackagename": {
+            "list-name": "get Package Name",
+            "display-text": "get Package Name",
+            "description": "Returns the package name of the app - the reversed domain name app identifier like com.example.myawesomeapp"
+          },
+          "getversioncode": {
+            "list-name": "get Version Code",
+            "display-text": "get Version Code",
+            "description": "Returns the build identifier of the app"
+          }
+        },
+        "expressions": {
+          "eventresponse": {
+            "translated-name": "Event Response",
+            "description": "This is the expression description"
+          }
+        }
+      }
+    }
+  }
+}

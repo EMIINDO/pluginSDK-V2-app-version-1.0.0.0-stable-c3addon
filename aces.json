@@ -1,0 +1,68 @@
+{
+  "appversion": {
+    "conditions": [
+      {
+        "id": "ongetversionnumber",
+        "scriptName": "Ongetversionnumber",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "ongetappname",
+        "scriptName": "Ongetappname",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "ongetpackagename",
+        "scriptName": "Ongetpackagename",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "ongetversioncode",
+        "scriptName": "Ongetversioncode",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [
+      {
+        "id": "getversionnumber",
+        "scriptName": "Getversionnumber",
+        "highlight": false,
+        "isAsync": true
+      },
+      {
+        "id": "getappname",
+        "scriptName": "Getappname",
+        "highlight": false,
+        "isAsync": true
+      },
+      {
+        "id": "getpackagename",
+        "scriptName": "Getpackagename",
+        "highlight": false,
+        "isAsync": true
+      },
+      {
+        "id": "getversioncode",
+        "scriptName": "Getversioncode",
+        "highlight": false,
+        "isAsync": true
+      }
+    ],
+    "expressions": []
+  },
+  "eventresponse": {
+    "conditions": [],
+    "actions": [],
+    "expressions": [
+      {
+        "id": "eventresponse",
+        "expressionName": "Eventresponse",
+        "returnType": "any"
+      }
+    ]
+  }
+}
