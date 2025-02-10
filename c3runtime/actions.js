@@ -7,8 +7,7 @@
             {
                 return;
             }
-            else
-            {};
+         
             await this.getVersionNumber();
         },
 
@@ -18,8 +17,6 @@
             {
                 return;
             }
-            else
-            {};
             await this.getAppName();
         },
 
@@ -29,8 +26,6 @@
             {
                 return;
             }
-            else
-            {};
             await this.getPackageName();
         },
 
@@ -40,8 +35,6 @@
             {
                 return;
             }
-            else
-            {};
             await this.getVersionCode();
         }
     };
